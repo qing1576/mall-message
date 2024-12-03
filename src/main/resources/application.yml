@@ -1,0 +1,19 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: mall-message
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: YkienEJd2Ej5wnx7@gmail.com
+    password: sgbpulglkynrvinn
+    protocol: smtp
+    test-connection: true
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.ssl.enable: true

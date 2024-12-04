@@ -60,7 +60,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.mall.MessageApplication</mainClass>
-                    <finalName>${artifactId}</finalName>
+                    <finalName>${project.artifactId}</finalName>
                 </configuration>
             </plugin>
         </plugins>
